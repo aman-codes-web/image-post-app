@@ -1,5 +1,4 @@
 const express = require('express');
-//multer for the file type data for the image type data 
 const multer = require('multer');
 const postModel=require("./models/post.model");
 const uploadfile = require("./services/storage.service");
